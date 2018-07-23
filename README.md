@@ -1,5 +1,6 @@
 # html-css_learning
 大二暑假学习html，通过21天学通html和css书籍以及网上视频进行学习。
+
 关于html:
 (1)第一章：主要是html的结构以及文本的排版，如：<p><br><h1>~<h6><center><blockquote>,以及文字列表<ul><ol>等
 (2)第二章：主要是对网页图片的简单操作,尺寸，alt属性，title属性等
