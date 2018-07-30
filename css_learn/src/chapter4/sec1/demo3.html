@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>"后代"选择器</title>
+    <style type="text/css">
+      span{
+          color:blue;
+      }
+        p span{
+            color:red;
+        }
+        div p{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+<div>
+    后代选择器就是可以将特定的后代改变属性<br>
+    一代
+    <p>二代<span>三代</span></p>
+    <span>一层一代</span><br>
+    <span>也是一层一代</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>"交集"选择器</title>
+    <style type="text/css">
+        p{
+            font-size: 20px;
+        }
+        .c{
+            color:red;
+        }
+        p.c{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+就是拥有已经有的样式，然后还想要更多的样式，已有的样式也要保留<br>
+    <p id="p1">段落一</p>
+    <p id="p2">段落二</p>
+    <p id="p3" class="c">段落三（所以p拥有了p，.c还有p.c加在一起的属性）</p>
+    <h1 id="h1" class="c">h1</h1>
+    <h2 id="h2">h2</h2>
+    <div>d1</div>
+</body>
+</html>
